@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: red;
+}
+
+.container{
+  width: 800px;
+  height: 500px;
+  align-items: center;
+  margin:auto;
+  margin-top: 200px;
+}
+.bt,.bt_auto,.bt_stop{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin: 5px 350px;
+    border: none;
+    background-color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bt:hover, .bt_auto:hover{
+    background-color: #e2e2e2;
+}
